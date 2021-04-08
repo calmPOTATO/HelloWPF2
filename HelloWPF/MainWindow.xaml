@@ -1,0 +1,14 @@
+﻿<Window x:Class="HelloWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn1" Content="버튼" HorizontalAlignment="Center" VerticalAlignment="Center" Height="267" Width="432" Click="Button_Click" FontSize="80" FontWeight="Bold"/>
+        <Button x:Name="btn2" Content="Button" HorizontalAlignment="Left" Margin="646,352,0,0" VerticalAlignment="Top" Height="69" Width="135" Click="Button_Click"/>
+
+    </Grid>
+</Window>
